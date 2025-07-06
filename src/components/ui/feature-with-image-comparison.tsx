@@ -103,7 +103,7 @@ function Feature({
               <img
                 src={rightImage}
                 alt={rightImageAlt}
-                className="absolute left-0 top-0 z-10 w-[35rem] h-96 object-contain aspect-video rounded-2xl select-none"
+                className="absolute left-0 top-0 z-10 w-full md:w-[35rem] h-96 object-contain aspect-video rounded-2xl select-none"
                 style={{
                   clipPath: "inset(0 0 0 " + inset + "%)",
                 }}
@@ -111,7 +111,7 @@ function Feature({
               <img
                 src={wrongImage}
                 alt={wrongImageAlt}
-                className="absolute left-0 top-0 w-[35rem] object-contain h-96 aspect-video rounded-2xl select-none"
+                className="absolute left-0 top-0 w-full md:w-[35rem] object-contain h-96 aspect-video rounded-2xl select-none"
               />
             </div>
           </div>
