@@ -59,7 +59,7 @@ function Feature({
           <div className="pt-12 w-full flex justify-center">
             <div
               ref={containerRef}
-              className="relative aspect-video w-[35rem] h-96 overflow-visible rounded-2xl select-none"
+              className="relative aspect-video w-full md:w-[35rem] h-96 overflow-visible rounded-2xl select-none"
             >
               {/* Wrong label/icon (left top) */}
               <div className="absolute top-2 left-4 flex items-center gap-1 z-30">
